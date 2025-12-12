@@ -1,0 +1,190 @@
+
+
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(180deg, #000000, #0a0a0a, #1a1a1a);
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(1, 1, 1, 0.7);
+    padding: 0px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    font-family: "Open Sans", sans-serif;
+}
+.logo img{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    width: 60px;
+}
+.logo a{
+    padding: 22px;
+    position: absolute;
+    margin-left: -4%;
+}
+.navigation ul{
+    list-style: none;
+}
+.header .navigation ul li{
+    float: left;
+    position: relative;
+}
+.header .navigation ul li a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    transition: all .2s ease;
+}
+.header .navigation ul li a:hover{
+    background-color: #685cfe;
+}
+.header .navigation ul li ul{
+    position: absolute;
+    right: 0;
+    width: 300px;
+    background-color: rgba(1, 1, 1, 0.7);
+    display: none;
+}
+.header .navigation ul li ul li{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.header .navigation ul li ul li ul{
+    position: absolute;
+    top: 0;
+    right: 300px;
+}
+.header .navigation ul li ul li{
+    width: 100%;
+}
+.header .navigation ul li:hover > ul{
+    display: block;
+}
+#toggle,
+.header label{
+    display: none;
+    cursor: pointer;
+}
+.menu{
+    width: 45px;
+    height: 35px;
+}
+
+
+
+.creditos{
+    color: white;
+    margin-top: 10%;
+}
+.titulo-1{
+    font-family: "Notable", sans-serif;
+    font-size: 28px;
+    margin-left: 10%;
+}
+.titulo-2{
+    margin-left: 10%;
+    font-size: 30px;
+    font-family: "Lexend Deca", sans-serif;
+    margin-top: 30px;
+}
+hr{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    color: gray;
+}
+.info{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 30px;
+    font-family: "Funnel Display", sans-serif;
+    margin-top: 20px;
+}
+.button {
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 2rem;
+    background: #3d3a4e;
+    background-size: 400%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 77.8%;
+    width: 100px;
+    height: 70px;
+    font-size: 15px;
+    margin-top: 2%;
+}
+button:hover {
+    background: red;
+    transition: 0.2s;
+}
+.button a{
+    color: white;
+}
+  
+.pie{
+    margin-top: 5%;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+footer .social{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px 0;
+    height: 30px;
+}
+footer .social a{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+footer .social a i{
+    font-size: 20px;
+    transition: all .3s ease;
+}
+footer .nav-section{
+    margin-bottom: 15px;
+    font-family: "Open Sans", sans-serif;
+}
+footer .nav-section nav{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+footer .nav-section nav a{
+    color: white;
+}
+footer .copy{
+    padding: 15px 0;
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,204 @@
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body{
+    min-height: 100vh;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #000000, #0a0a0a, #1a1a1a);
+    overflow-x: hidden;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(1, 1, 1, 0.7);
+    padding: 0px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    font-family: "Open Sans", sans-serif;
+}
+.logo img{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    width: 60px;
+}
+.logo a{
+    padding: 22px;
+    position: absolute;
+    margin-left: -4%;
+}
+.navigation ul{
+    list-style: none;
+}
+.header .navigation ul li{
+    float: left;
+    position: relative;
+}
+.header .navigation ul li a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    transition: all .2s ease;
+}
+.header .navigation ul li a:hover{
+    background-color: #685cfe;
+}
+.header .navigation ul li ul{
+    position: absolute;
+    right: 0;
+    width: 300px;
+    background-color: rgba(1, 1, 1, 0.7);
+    display: none;
+}
+.header .navigation ul li ul li{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.header .navigation ul li ul li ul{
+    position: absolute;
+    top: 0;
+    right: 300px;
+}
+.header .navigation ul li ul li{
+    width: 100%;
+}
+.header .navigation ul li:hover > ul{
+    display: block;
+}
+#toggle,
+.header label{
+    display: none;
+    cursor: pointer;
+}
+.menu{
+    width: 45px;
+    height: 35px;
+}
+
+.detalle-1 img{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: -33%;
+    transform: rotate(-110deg);
+    width: 650px;
+}
+.detalle-2 img{
+    position: absolute;
+    width: 200px;
+    margin-left: 50%;
+    margin-top: -10%;
+    transform: rotate(20deg);
+}
+
+
+.contenedor {
+    margin: 20px;
+    margin-top: 10%;
+}
+
+.titulo h1 {
+    font-size: 50px;
+    margin-left: 10%;
+    color: white;
+    font-family: "Notable", sans-serif;
+}
+
+.fila1 {
+    display: flex;
+    gap: 40px;
+}
+
+.texto-izq {
+    width: 250px;
+    height: 320px;
+    margin-left: 10%;
+    margin-top: 25px;
+    color: white;
+    font-family: "Funnel Display", sans-serif;
+}
+
+/* Video centrado */
+.video iframe{
+    width: 600px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.texto-der {
+    width: 130px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    color: white;
+    font-family: "Funnel Display", sans-serif;
+}
+
+.img img {
+    width: 300px;
+    margin-left: 32.5%;
+    margin-top: -20%;
+    border: white 2px solid;
+}
+
+.pie{
+    margin-top: 9%;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+footer .social{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px 0;
+    height: 60px;
+}
+footer .social a{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+footer .social a i{
+    font-size: 20px;
+    transition: all .3s ease;
+}
+footer .nav-section{
+    margin-bottom: 15px;
+    font-family: "Open Sans", sans-serif;
+}
+footer .nav-section nav{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+footer .nav-section nav a{
+    color: white;
+}
+footer .copy{
+    padding: 15px 0;
+    background-color: black;
+    color: white;
+}

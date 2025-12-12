@@ -1,0 +1,144 @@
+
+body{
+    background: linear-gradient(180deg, #000000, #0a0a0a, #1a1a1a);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.img-1{
+    height: 75vh;
+    background-image: url("img/caratula.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    position: absolute;
+    margin-left: 37%;
+    margin-top: -30%;
+}
+.logo a{
+    padding: 80px;
+    margin-top: 25%;
+    margin-left: -70%;
+    position: absolute;
+}
+.logo img{
+    width: 300px;
+}
+.titulo{
+    color: white;
+    width: 200px;
+    font-family: "Notable", sans-serif;
+    margin-left: 12%;
+    margin-top: 10%;
+    font-size: 30px;
+}
+.texto-1{
+    color: white;
+    font-family: "Lexend Deca", sans-serif;
+    width: 400px;
+    margin-left: 12%;
+    font-size: 25px;
+}
+.fila-mixta{
+    display: flex;
+}
+.img-2 img{
+    width: 750px;
+    position: absolute;
+    margin-top: -15%;
+    margin-left: 10%;
+}
+.titulo-2{
+    color: white;
+    width: 200px;
+    font-family: "Notable", sans-serif;
+    margin-left: 49%;
+    margin-top: 17%;
+    font-size: 30px;
+}
+.texto-2{
+    color: white;
+    font-family: "Lexend Deca", sans-serif;
+    width: 400px;
+    margin-left: 49%;
+    font-size: 25px;
+}
+.img-3 img{
+    width: 750px;
+    position: absolute;
+    margin-top: -15%;
+    margin-left: -12%;
+    transform: rotate(45deg);
+}
+.titulo-3{
+    color: white;
+    width: 200px;
+    font-family: "Notable", sans-serif;
+    margin-left: 12%;
+    margin-top: 10%;
+    font-size: 30px;
+}
+.texto-3{
+    color: white;
+    font-family: "Lexend Deca", sans-serif;
+    width: 400px;
+    margin-left: 12%;
+    font-size: 25px;
+}
+.img-4 img{
+    width: 790px;
+    position: absolute;
+    margin-top: -15%;
+    margin-left: 11%;
+}
+
+
+.pie{
+    margin-top: 10%;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+footer .social{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px 0;
+    height: 30px;
+}
+footer .social a{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+footer .social a i{
+    font-size: 20px;
+    transition: all .3s ease;
+}
+footer .nav-section{
+    margin-bottom: 15px;
+    font-family: "Open Sans", sans-serif;
+}
+footer .nav-section nav{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+footer .nav-section nav a{
+    color: white;
+}
+footer .copy{
+    padding: 15px 0;
+    background-color: black;
+    color: white;
+}
